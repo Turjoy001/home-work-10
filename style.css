@@ -1,0 +1,38 @@
+/* common css start */
+*{ 
+    outline: 0px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* common css end */
+.item1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.item2{
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    background-color: #02918c;
+    justify-content: space-between;
+}
+nav ul{
+    list-style-type: none;
+    justify-content: space-between;
+}
+nav ul li a{
+    display: inline-block;
+    font-size: 12px;
+    color: #ffff;
+    text-transform: uppercase;
+    padding: 26px 25.5px;
+    text-decoration-line: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+nav .box{
+    width: 1170px;
+    margin: 0 auto;
+}
